@@ -1,0 +1,5 @@
+# Node modules
+/node_modules/
+
+# Rabbit configuration file should not be committed
+rabbit.json
