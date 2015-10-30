@@ -1,4 +1,4 @@
-var PORT = 9002;
+var PORT = 80;
 var Server = require('socket.io');
 
 exports.connect = function(port) {
