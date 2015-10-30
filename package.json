@@ -1,0 +1,23 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "Proof of concept for pulling messages from a queue and pushing to a socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "rabbitmq"
+  ],
+  "author": "Josh Graber",
+  "license": "MIT",
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "command-line-args": "^2.0.4",
+    "q": "^1.4.1",
+    "socket.io": "^1.3.7",
+    "uuid": "^2.0.1"
+  }
+}
