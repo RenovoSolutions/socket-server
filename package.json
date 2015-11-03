@@ -16,6 +16,7 @@
   "dependencies": {
     "amqp": "^0.2.4",
     "command-line-args": "^2.0.4",
+    "node-queue-logger": "0.0.3",
     "rx": "^4.0.6",
     "socket.io": "^1.3.7",
     "uuid": "^2.0.1"
