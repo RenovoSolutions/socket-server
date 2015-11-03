@@ -5,6 +5,7 @@ var config = require('./rabbit.json');
 
 var getQueue = require('./queue');
 
+exports.config = config;
 exports.connect = function() {
 	var queueStream = new Rx.Subject();
 
